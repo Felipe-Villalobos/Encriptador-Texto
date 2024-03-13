@@ -9,37 +9,34 @@ const matriz_code = [
     ["u", "ufat"], // indice 4
 ];
 
-
-/*function btnCifrar(){
-  
-    const texto = cifrar(campo_texto.value);
-     // Expresión regular para letras minúsculas y espacios
-     const validation = /^[a-z\s]+$/i;
-
-     if (validation.test(campo_texto.value)) {
-         // El texto contiene solo letras minúsculas y espacios
-         return true;
-     } else {
-         // Mostrar un mensaje de error o realizar alguna acción
-         alert("El texto debe contener solo letras minúsculas y espacios.");
-         
-     }
-    campo_mensaje.value = texto;
-    texto.value = "";
-    campo_mensaje.style.backgroundImage = "none"; 
-
-    return false;
-}
-*/
 function btnCifrar() {
+    const texto = cifrar(campo_texto.value);
+    // Expresión regular para letras minúsculas y espacios
+    const validation = /^[a-z\s]+$/i;
 
-        const texto = cifrar(campo_texto.value);
+    if (campo_texto.value.trim() === "") {
+        // El campo está vacío
+        alert('el campo no puede quedar vacio');
+    } else if (validation.test(campo_texto.value)) {
+        // El texto contiene solo letras minúsculas y espacios
         campo_mensaje.value = texto;
-                texto.value = "";
-        campo_mensaje.style.backgroundImage = "none"; 
-             
+        campo_mensaje.style.backgroundImage = "none";
+        limpiarCaja();
+
+    } else {
+        // Mostrar otro mensaje de error
+            const inputElement = document.getElementById('texto-encriptado');
+           inputElement.placeholder = 'No se permiten números ni caracteres especiales';
+          
+    }
+
+    limpiarCaja();
 }
 
+
+function limpiarCaja() {
+    document.querySelector('#texto-encriptado').value = '';
+}
 function cifrar(fraseCifrada){
        
         for (let i = 0; i < matriz_code.length; i++) {
@@ -57,7 +54,26 @@ function cifrar(fraseCifrada){
 
 function btnDescifrar(){
     const texto = descifrar(campo_texto.value);
-    campo_mensaje.value = texto;
+    // Expresión regular para letras minúsculas y espacios
+    const validation = /^[a-z\s]+$/i;
+
+    if (campo_texto.value.trim() === "") {
+        // El campo está vacío
+        alert('el campo no puede quedar vacio');
+    } else if (validation.test(campo_texto.value)) {
+        // El texto contiene solo letras minúsculas y espacios
+        campo_mensaje.value = texto;
+        campo_mensaje.style.backgroundImage = "none";
+        limpiarCaja();
+        
+    } else {
+        // Mostrar otro mensaje de error
+            const inputElement = document.getElementById('texto-encriptado');
+           inputElement.placeholder = 'No se permiten números ni caracteres especiales';
+          
+    }
+
+    limpiarCaja();
 }
 
 function descifrar(fraseDescifrada){
@@ -71,3 +87,10 @@ function descifrar(fraseDescifrada){
     }
     return fraseDescifrada;
 }
+
+
+function condicionesIniciales() {
+    const inputElement = document.getElementById('texto-encriptado');
+            inputElement.placeholder = 'aquí escribe el texto que deseas cifrar.';
+}
+
