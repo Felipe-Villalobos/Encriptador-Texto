@@ -73,7 +73,7 @@ function btnDescifrar(){
           
     }
 
-    limpiarCaja();
+    
 }
 
 function descifrar(fraseDescifrada){
@@ -89,8 +89,12 @@ function descifrar(fraseDescifrada){
 }
 
 
-function condicionesIniciales() {
-    const inputElement = document.getElementById('texto-encriptado');
-            inputElement.placeholder = 'aquí escribe el texto que deseas cifrar.';
+async function btnCopiar() {
+            // Selecciona el contenido del área de texto
+        campo_mensaje.select();
+        // Copia el contenido al portapapeles
+        await navigator.clipboard.writeText(campo_mensaje.value);
+        // Opcional: Puedes mostrar un mensaje de éxito o realizar otras acciones después de copiar
+      
 }
 
