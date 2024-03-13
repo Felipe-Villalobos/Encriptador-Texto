@@ -32,7 +32,7 @@ main{
 
 .mensaje{
     background: #FFFFFF;
-    background-image: url(../img/Muñeco.png);
+    background-image: url(./img/Muñeco.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -41,10 +41,33 @@ main{
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
+    
 }
 
 .mensaje:focus{
     outline: none;
+}
+
+h6{  
+     width: 205px;
+     height: 18px;
+     opacity: 80%;
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-size: 12px;
+     font-style: normal;
+     font-variation-settings: "slnt" 0;
+     line-height: 18px;
+     letter-spacing: 0em;
+     text-align: left;
+     outline: none;
+     resize: none;
+     border: 0;
+     padding: 0;
+     background: #F3F5FC;
+     color: #495057;
+    
 }
 
 .botones{
