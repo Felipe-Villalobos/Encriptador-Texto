@@ -90,7 +90,6 @@ h6{
 }
 
 .botones{
-    display: flex;
     margin-top: 10px;
     margin-left: 155px;
 
@@ -138,4 +137,35 @@ footer{
     color: #0A3871;
     text-align: center;
     margin-top: 30px;    
+}
+
+@media screen and (max-width:480px){
+   
+    
+    header, header img{
+       margin-left:0%;
+       padding-top: 5px;
+       
+    }
+    
+    .campo-texto, .section1, .botones {
+        width: auto;
+        margin-left:10px;
+        height:200px;
+        
+    }
+
+    h6{
+        margin-left:10px;
+    }
+
+    .botones{
+        margin-top: 10px;
+    }
+    
+    .btnDescifrar,.btnCifrar{
+        margin-left: 0px;
+        margin-top: 20px;
+        
+    }
 }
