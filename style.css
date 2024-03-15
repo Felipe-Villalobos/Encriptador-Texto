@@ -2,46 +2,65 @@
     background:#F3F5FC;
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 32px;
-    line-height: 150%
+    font-size: 18px;
+    line-height: 150%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
 .logo{
 padding-top: 10px;
-margin-left: 10px;
-width: 10%;
+margin-left: 40px;
+width: 120PX;
 }
 
 main{
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    
+   
+}
+
+.section1{
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 5%;
+   
 }
 
 .campo-texto{
+    font-size: 29px;
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 30px;
+    height: 400px;
+    width: 75%;
+    margin-left: 20%;
     text-transform: lowercase;
+    
 }
 
 ::placeholder{color: #0A3871;}
     .campo-texto:focus{outline: none;
     }
 
+
 .mensaje{
     background: #FFFFFF;
-    background-image: url(./img/Muñeco.png);
+    background-image: url(./img/Muñeco.png), url(./img/Frame5.png);
     background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center 40%, center 70%; 
     border: none;
     border-radius: 24px;
-    color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
+    color: #495057;
+    width: 21%;
+    height: 86%;
     position: fixed;
-    
+    padding: 20px;
+    font-size: 17px;
+       
 }
 
 .mensaje:focus{
@@ -49,36 +68,37 @@ main{
 }
 
 h6{  
-     width: 205px;
-     height: 18px;
+     width: 250px;
+     height: 22px;
      opacity: 80%;
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
-     font-weight: 400;
+     font-weight: 400px;
      font-size: 12px;
      font-style: normal;
      font-variation-settings: "slnt" 0;
      line-height: 18px;
      letter-spacing: 0em;
-     text-align: left;
      outline: none;
      resize: none;
      border: 0;
      padding: 0;
      background: #F3F5FC;
      color: #495057;
+     margin-left: 160px;
     
 }
 
 .botones{
     display: flex;
-    margin-top: 18px;
+    margin-top: 10px;
+    margin-left: 155px;
 
 }
 
 .btnCifrar{
-    width: 328px;
-    height: 67px;
+    width: 250px;
+    height: 50px;
     cursor: pointer;
     color: #FFFFFF;
     border: 1px solid #0A3871;
@@ -88,26 +108,34 @@ h6{
 }
 
 .btnDescifrar{
-    width: 328px;
-    height: 67px;
+    width: 250px;
+    height: 50px;
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
     margin-left: 30px;
     border: 1px solid #0A3871;
     background: #D8DFE8;
-
+    
 }
 
 .btn-copiar{
-    margin-left: 108px;
-    margin-top: 402px;
-    position: absolute;
-    width: 336px;
-    height: 67px;
-    cursor: pointer;
-    color: #0A3871;
+   
+    width: 250px;
+    height: 50px;
     border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
     border: 1px solid #0A3871;
+    background: #FFFFFF;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 22.5px;
+       
+}
 
+footer{
+    color: #0A3871;
+    text-align: center;
+    margin-top: 30px;    
 }

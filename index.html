@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,26 +16,27 @@
        <img class="logo" src="./img/Logo.png" alt="logo de alura">
     </header>
     <main class="main">
-        <section>
-            <textarea id="texto-encriptado" class="campo-texto" cols="30" rows="5"
-            placeholder="aquí escribe el texto que deseas cifrar."></textarea>
+        <section class="section1">
+            <textarea id="texto-encriptado" class="campo-texto" 
+            placeholder="Ingrese el texto aqui."></textarea>
             <div>
-                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                <h6 class="informacion"><img src="img/bi_exclamation-circle-fill.png" alt=""> Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
                 <button class="btnCifrar" onclick="btnCifrar()">Cifrar</button>
                 <button class="btnDescifrar" onclick="btnDescifrar()">Descifrar</button>
             </div>
         </section>
-        <section class="campo-mensaje">
-            <textarea  id="campo-mensaje" class="mensaje" cols="20" rows="5"></textarea>
+        <section >
+            <textarea  id="campo-mensaje" class="mensaje"></textarea>
             <div>
-                <button onclick="btnCopiar()" class="btn-copiar">Copiar</button>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
             </div>
         </section>
-       
-
     </main>
+    <footer>
+        <p>&#169; 2024</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
