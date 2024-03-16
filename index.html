@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +17,18 @@
     </header>
     <main class="main">
         <section class="section1">
-            <textarea id="texto-encriptado" class="campo-texto" 
+            <textarea id="texto-encriptado" class="campo-texto" oninput="autoResize()" 
             placeholder="Ingrese el texto aqui."></textarea>
             <div>
                 <h6 class="informacion"><img src="img/bi_exclamation-circle-fill.png" alt=""> Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
-                <button class="btnCifrar" onclick="btnCifrar()">Cifrar</button>
-                <button class="btnDescifrar" onclick="btnDescifrar()">Descifrar</button>
+                <button class="btnCifrar" onclick="btnCifrar()">Encriptar</button>
+                <button class="btnDescifrar" onclick="btnDescifrar()">Desencriptar</button>
             </div>
         </section>
-        <section >
-            <textarea  id="campo-mensaje" class="mensaje"></textarea>
+        <section class="section2" >
+            <textarea  id="campo-mensaje" class="mensaje" oninput="autoResize()"></textarea>
             <div>
                 <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
             </div>
