@@ -96,4 +96,6 @@ function autoResize() {
     textarea2.style.height = 'auto'; // Restaurar la altura predeterminada
     textarea2.style.height = textarea2.scrollHeight + 'px'; // Ajustar la altura según el contenido
     textarea2.style.backgroundImage = "none";
+    
 }
+
