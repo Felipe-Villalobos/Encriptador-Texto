@@ -228,7 +228,7 @@ footer{
     }
 
     .mensaje{
-       background-image: none;
+       background-image: url(img/Frame5.png);
         position: relative;
         left: 10px;
         border-radius: 32px;
