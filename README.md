@@ -57,7 +57,7 @@ De esta manera, tus textos estarán protegidos contra personas no autorizadas.
     
    - Haz clic en el botón "Desencriptar" para generar el mensaje cifrado.
 
-    ![descifrado.PNG](img/presentacion/descifrado.PNG)
+    ![descifrado.PNG](img/presentacion/Descifrado.PNG)
 
    - Luego en la parte derecha visualizaras  el mensaje desencriptado.
 
