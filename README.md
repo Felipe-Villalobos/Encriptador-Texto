@@ -67,8 +67,7 @@ De esta manera, tus textos estarán protegidos contra personas no autorizadas.
 
 Tu puedes usar clickear el boton copiar, para copiar el texto generado a tu portapapeles:
 
-![descifrado.PNG](img/presentacion/descifrado.PNG)
-
+- ![descifrado.PNG](img/presentacion/descifrado.PNG)
 
 ## Tecnologías utilizadas 
 
