@@ -8,7 +8,7 @@
 ## ¿Cómo Funciona?
 El Encriptador de Mensajes utiliza un algoritmo de cifrado para convertir el texto original en un formato ilegible, conocido como texto cifrado. Este texto cifrado solo puede ser decodificado utilizando las dos funcionalidades disponibles, ya sea para encriptarlo o desencriptarlo, eligiendo la opción mediante los botones:
 
-![Botones opcionales](..img/presentacion/botones.PNG)
+- ![Botones opcionales](img/presentacion/botones.PNG)
 
 
 De esta manera, tus textos estarán protegidos contra personas no autorizadas.
@@ -25,33 +25,35 @@ De esta manera, tus textos estarán protegidos contra personas no autorizadas.
 - **Fácil de Usar:** Interfaz intuitiva que te guiará a través del proceso de cifrado y descifrado en solo unos pocos pasos simples.
 - **Se puede usar en cualquier dispositivo** Desde un celuar, tablet o computador podras usar la herramienta .
 
-![Desktop.PNG]..(img/presentacion/Desktop.PNG)
-![Tablet.PNG](..img/presentacion/Tablet.PNG)
-![Minitablet.PNG](..img/presentacion/Minitablet.PNG)
-![Celular.PNG](..img/presentacion/Celular.PNG)
+- ![Desktop.PNG](img/presentacion/Desktop.PNG)
+
+- ![Tablet.PNG](img/presentacion/Tablet.PNG)
+
+- ![Minitablet.PNG](img/presentacion/Minitablet.PNG)
+
+- ![Celular.PNG](img/presentacion/Celular.PNG)
 
 
 ## Cómo Utilizar
+
 1. **Cifrar un Mensaje:**
    - Ingresa tu mensaje en el campo de texto proporcionado.
 
-    ![Campo_ingresar_texto.PNG](..img/presentacion/Campo_ingresar_texto.PNG)
+    ![Campo_ingresar_texto.PNG](img/presentacion/Campo_ingresar_texto.PNG)
     
    - Haz clic en el botón "encriptar" para generar el mensaje cifrado.
 
-    ![cifrar.png](..img/presentacion/Cifrar.PNG)
+    ![Cifrar.png](img/presentacion/Cifrar.PNG)
 
    - Luego en la parte derecha visualizaras  el mensaje encriptado.
 
-    ![cifrar.png](..img/presentacion/cifrado.PNG)
-
-
-    
+    ![cifrado.png](img/presentacion/cifrado.PNG)
+  
 
 2. **Descifrar un Mensaje:**
    - Ingresa tu mensaje en el campo de texto proporcionado.
 
-    ![Campo_ingresar_texto.PNG](..img/presentacion/Campo_ingresar_texto.PNG)
+    ![Campo_ingresar_texto.PNG](img/presentacion/Campo_ingresar_texto.PNG)
     
    - Haz clic en el botón "Desencriptar" para generar el mensaje cifrado.
 
@@ -60,12 +62,13 @@ De esta manera, tus textos estarán protegidos contra personas no autorizadas.
    - Luego en la parte derecha visualizaras  el mensaje desencriptado.
 
     ![descifrar.PNG](img/presentacion/descifrar.PNG)
+
 ### Boton copiar
 
 Tu puedes usar clickear el boton copiar, para copiar el texto generado a tu portapapeles:
 
-
 ![descifrado.PNG](img/presentacion/descifrado.PNG)
+
 
 ## Tecnologías utilizadas 
 
@@ -78,7 +81,5 @@ Tu puedes usar clickear el boton copiar, para copiar el texto generado a tu port
 Texto Original: hola mundo
 
 Texto Cifrado: [hoberlai mufatndober].
-
-### Boton copiar
 
 
