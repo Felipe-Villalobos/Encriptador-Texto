@@ -3,7 +3,7 @@
 # Encriptador de Mensajes
 
 ## Introducción
-¡Bienvenidos al Encriptador de Texto! Este es un programa diseñado en base a el primer reto impuesto por Oracle Next Education mediante la plataforma de Formación Alura Latam para cifrar y descifrar mensajes de forma segura y confiable. En esta guía, te mostraremos cómo utilizar esta herramienta para proteger la privacidad de tus comunicaciones.
+¡Bienvenidos al Encriptador de Texto! Este es un programa diseñado en base a el primer reto impuesto por Oracle Next Education mediante la plataforma de Formación Alura Latam en el  Grupo #6 para cifrar y descifrar mensajes de forma segura y confiable. En esta guía, te mostraremos cómo utilizar esta herramienta para proteger la privacidad de tus comunicaciones.
 
 ## ¿Cómo Funciona?
 El Encriptador de Mensajes utiliza un algoritmo de cifrado para convertir el texto original en un formato ilegible, conocido como texto cifrado. Este texto cifrado solo puede ser decodificado utilizando las dos funcionalidades disponibles, ya sea para encriptarlo o desencriptarlo, eligiendo la opción mediante los botones:
