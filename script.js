@@ -89,6 +89,9 @@ function autoResize() {
     const textarea1 = document.getElementById('texto-encriptado');
     const textarea2 = document.getElementById('campo-mensaje');
 
+    // Verificar el ancho de la pantalla
+    if (window.innerWidth < 1366){
+
     textarea1.style.height = 'auto'; // Restaurar la altura predeterminada
     textarea1.style.height = textarea1.scrollHeight + 'px'; // Ajustar la altura según el contenido
     
@@ -96,6 +99,7 @@ function autoResize() {
     textarea2.style.height = 'auto'; // Restaurar la altura predeterminada
     textarea2.style.height = textarea2.scrollHeight + 'px'; // Ajustar la altura según el contenido
     textarea2.style.backgroundImage = "none";
+    }
     
 }
 

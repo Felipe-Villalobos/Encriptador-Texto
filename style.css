@@ -188,7 +188,7 @@ footer{
     }
     
     .campo-texto {
-        width: 688px;
+        width: 90%;
         height: 48px;
         margin-left: 40px;
         font-weight: 400;
@@ -486,7 +486,7 @@ footer{
     }
     
     .campo-texto {
-        width: 90%;
+        width: 81%;
         margin-left:30px;
         height: max-content;
         font-size: 29px;
