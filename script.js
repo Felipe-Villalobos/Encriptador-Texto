@@ -2,11 +2,12 @@ const campo_texto = document.querySelector("#texto-encriptado");
 const campo_mensaje = document.querySelector("#campo-mensaje");
 
 const matriz_code = [
-    ["e", "enter"], // indice  0
-    ["i", "imes"], // indice 1
-    ["a", "ai"], // indice 2
-    ["o", "ober"], // indice 3
-    ["u", "ufat"], // indice 4
+    
+    ["i", "imes"], // indice  0
+    ["a", "ai"], // indice 1
+    ["o", "ober"], // indice 2
+    ["u", "ufat"],// indice 3
+    ["e", "enter"], // indice 4
 ];
 
 function btnCifrar() {
