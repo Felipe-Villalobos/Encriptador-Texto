@@ -64,15 +64,18 @@ function btnDescifrar(){
     }
 }
 
-function descifrar(fraseDescifrada){
-    for (let i = 0; i < matriz_code.length; i++) {
-        if(fraseDescifrada.includes(matriz_code[i][1])){
+function descifrar(fraseDescifrada) {
+    let fraseAnterior;
+    do {
+        fraseAnterior = fraseDescifrada;
+        for (let i = 0; i < matriz_code.length; i++) {
             fraseDescifrada = fraseDescifrada.replaceAll(
                 matriz_code[i][1],
                 matriz_code[i][0]
-            )
+            );
         }
-    }
+    } while (fraseAnterior !== fraseDescifrada); // Se repite hasta que ya no haya cambios
+
     return fraseDescifrada;
 }
 
